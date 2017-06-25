@@ -48,7 +48,7 @@ namespace RPNCalculator.Tests
                         case "-":
                             var x = itemStack.Pop();
                             var y = itemStack.Pop();
-                            itemStack.Push(y-x);
+                            itemStack.Push(x-y);
                             break;
                     }
                 }
